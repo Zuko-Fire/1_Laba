@@ -79,7 +79,7 @@ void Parking::all_cars_parking()
 	for (int i = 0; i < number_arrey_element; i++)
 	{
 		if (cars[i].getIsPark()) {
-			cout << cars[i].getNumber() << "" << cars[i].getMark() << "" << cars[i].getColor() << endl;
+			cout << cars[i].getNumber() << " " << cars[i].getMark() << " " << cars[i].getColor() << endl;
 			counter++;
 		}
 	}
